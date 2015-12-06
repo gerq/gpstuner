@@ -1,0 +1,49 @@
+GPSTuner teszt feladat
+Vida Gergely
+
+2015.12.05.
+
+Adatok
+
+Asztalok
+- id
+- *nev
+- *ferohely
+
+Foglalas
+- id
+- *asztalid
+- foglalas adatok id
+- *idopont -tol
+- *idopont -ig
+- aktiv
+
+Foglalas adatok (kell kulon tabla?)
+- id
+- foglalas id
+- *nev
+- *email
+- *telefon
+- *cim
+- megjegyzes
+ 
+Foglalas form
+
+- *nev
+- *cim
+- *email
+- *telefon
+- *idopont (+2ora)
+- megjegyzes
+
+Felulet:
+
+mobil first
+datumvalaszto - datepicker
+idopont valasztas - ora, fel oras bontas
+foglaltsag megjelenitese - lista idopontokkal
+
+Optimalis asztalkiosztas:
+
+A jelentkezok szamahoz legkozelebbi asztal foglalhato a szabad asztalokbol.
+Pl.: 1 ember leulhet egy kettes asztalhoz, ha 8-an jonnek az egy 6-os es egy 2-es asztal.
